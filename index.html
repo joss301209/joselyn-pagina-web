@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biología General - Proyecto Escolar</title>
+   <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2941/2941537.png" type="image/png">
+ <link rel="stylesheet" href="adorno.css">
+</head>
+<body>
+
+    <header id="inicio">
+        <h1>Biología</h1>
+        <p>Sitio web educativo escolar</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#temas">Temas</a>
+        <a href="#video-seccion">Video</a>
+        <a href="#galeria-seccion">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="contenedor">
+
+        <section>
+            <h2>Bienvenido</h2>
+            <p>En este espacio aprenderemos conceptos clave sobre los seres vivos, células y la estructura del ADN de forma sencilla.</p>
+        </section>
+
+        <section id="temas">
+            <h2>Artículos educativos</h2>
+
+            <article class="tarjeta">
+                <h3>¿Qué es la Biología Celular?</h3>
+                <p>
+                    La biología celular estudia las propiedades, estructura, funciones y ciclo de vida de las células, así como su interacción con el entorno.
+                </p>
+                <a href="https://es.wikipedia.org/wiki/Biolog%C3%ADa_celular" target="_blank" rel="noopener noreferrer">
+                    Aprender sobre células
+                </a>
+            </article>
+
+
+        </section>
+
+        <section id="temas">
+            
+            <h2>Temario del Curso</h2>
+
+            <h3>1. Pasos del Método Científico </h3>
+            <ol>
+                <li>Observación del fenómeno</li>
+                <li>Planteamiento de preguntas</li>
+                <li>Formulación de hipótesis</li>
+                <li>Experimentación controlada</li>
+                <li>Análisis y conclusiones</li>
+            </ol>
+
+            <h3>2. Reinos Biológicos</h3>
+            <ul>
+                <li>Reino Animalia (Animales)</li>
+                <li>Reino Plantae (Plantas)</li>
+                <li>Reino Fungi (Hongos)</li>
+                <li>Reino Monera (Bacterias)</li>
+                <li>Reino Protista (Organismos unicelulares)</li>
+            </ul>
+
+            <h3>3. Glosario </h3>
+            <dl>
+                <dt>Célula</dt>
+                <dd>Unidad anatómica fundamental de todos los organismos vivos.</dd>
+                <dt>ADN</dt>
+                <dd>Molécula que almacena la información genética hereditaria.</dd>
+            </dl>
+
+            <h3>4. Comparativa Celular</h3>
+            <table class="tabla-datos">
+                <thead>
+                    <tr>
+                        <th>Componente</th>
+                        <th>Célula Animal</th>
+                        <th>Célula Vegetal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pared celular</td>
+                        <td>No presente</td>
+                        <td>Presente</td>
+                    </tr>
+                    <tr>
+                        <td>Cloroplastos</td>
+                        <td>Ausentes</td>
+                        <td>Presentes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        
+         <section id="video-seccion">
+            <h2>Video Educativo: La Célula y la Biología</h2>
+            <p>Reproduce el siguiente material audiovisual sobre la materia:</p>
+            <div class="contenedor-video">
+                <video controls poster="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=800">
+                    <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </div>
+        </section>
+        
+
+        <section id="galeria-seccion">
+            <h2>Galería de Imágenes</h2>
+            <div class="galeria">
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=500" alt="Microscopio óptico utilizado en el laboratorio escolar de biología">
+                    <figcaption>Prácticas de laboratorio</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=500" alt="Estructura molecular de la doble hélice de ADN en investigación genética">
+                    <figcaption>Genética y ADN</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=500" alt="Paisaje natural de un bosque que representa un ecosistema">
+                    <figcaption>Ecosistemas</figcaption>
+                </figure>
+            </div>
+        </section>
+
+      
+        <section id="contacto">
+            <h2>Formulario de Dudas</h2>
+            <p>Envía tus preguntas al profesor:</p>
+            
+            <form action="#contacto" method="get">
+                <div class="campo">
+                    <label for="nombre">Nombre del alumno:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                </div>
+
+                <div class="campo">
+                    <label for="pregunta">Pregunta sobre la materia:</label>
+                    <input type="text" id="pregunta" name="pregunta" placeholder="Escribe tu duda" required>
+                </div>
+
+                <button type="submit" class="btn-enviar">Enviar datos</button>
+            </form>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Proyecto escolar de Biología - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
